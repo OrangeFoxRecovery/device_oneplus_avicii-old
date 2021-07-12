@@ -29,7 +29,7 @@ $(call inherit-product, device/oneplus/avicii/device.mk)
 PRODUCT_DEVICE := avicii
 PRODUCT_NAME := omni_avicii
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := AC01BA
+PRODUCT_MODEL := OnePlus Nord
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
