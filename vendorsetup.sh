@@ -1,6 +1,6 @@
 #
 #	This file is part of the OrangeFox Recovery Project
-# 	Copyright (C) 2020-2021 The OrangeFox Recovery Project
+# 	Copyright (C) 2021 The OrangeFox Recovery Project
 #
 #	OrangeFox is free software: you can redistribute it and/or modify
 #	it under the terms of the GNU General Public License as published by
@@ -72,10 +72,10 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export OF_DISABLE_MIUI_OTA_BY_DEFAULT=0
     
     # R11.1 Settings
-    export FOX_VERSION="R11.1_1"
+    export FOX_VERSION="R11.1_2_001"
     export OF_MAINTAINER="Sushrut Gupta"
     export OF_MAINTAINER_AVATAR="misc/Sushrut1101.png"
-    export FOX_BUILD_TYPE="Unofficial"
+    export FOX_BUILD_TYPE="Testing"
 
 	# Screen Settings
 	export OF_SCREEN_H=2400
