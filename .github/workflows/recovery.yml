@@ -67,7 +67,7 @@ jobs:
        - name: Build
          run: |
               cd work
-              . build/envsetup.sh &&lunch omni_$DEVICE-eng &&export ALLOW_MISSING_DEPENDENCIES=true && mka $TARGET
+              . build/envsetup.sh &&lunch omni_$DEVICE-eng &&export ALLOW_MISSING_DEPENDENCIES=true && mka -j16 $TARGET
              
        - name: Release recovery image
          uses: softprops/action-gh-release@v1
@@ -75,7 +75,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          with:
           tag_name: R11.1_2_001-Testing
-          name: $(echo /home/runner/work/out/target/product/$DEVICE/OrangeFox*.zip)
+          name: OrangeFox-R11.1_2_001-Testing-avicii.zip
           files: | 
             version=$FOX_VERSION
-            work/out/target/product/$DEVICE/OrangeFox*.zip
+            work/out/target/product/avicii/OrangeFox-R11.1_2_001-Testing-avicii.zip
