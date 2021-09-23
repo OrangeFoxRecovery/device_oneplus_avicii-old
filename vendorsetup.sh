@@ -87,9 +87,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_STATUS_INDENT_RIGHT=48
 	export OF_ALLOW_DISABLE_NAVBAR=0
 
-	# maximum permissible splash image size (in kilobytes); do *NOT* increase!
-	export OF_SPLASH_MAX_SIZE=104
-
 	# Run a process after formatting data to work-around MTP issues
 	export OF_RUN_POST_FORMAT_PROCESS=1
 	
