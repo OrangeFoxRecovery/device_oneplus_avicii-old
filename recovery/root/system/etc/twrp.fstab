@@ -1,6 +1,5 @@
 # mount point   fstype  device                  device2            flags
 /boot       emmc    /dev/block/bootdevice/by-name/boot             flags=slotselect
-/cache      ext4    /dev/block/bootdevice/by-name/cache            flags=display="Cache";wipeingui;wipeduringfactoryreset
 
 system      /system         ext4        slotselect;logical
 vendor      /vendor         ext4        slotselect;display="Vendor";logical
