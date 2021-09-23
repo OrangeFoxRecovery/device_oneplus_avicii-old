@@ -45,7 +45,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# Avicii Specific
 	export OF_AB_DEVICE=1
 	export OF_FBE_METADATA_MOUNT_IGNORE=1
-	export OF_STATUS_INDENT_LEFT=245
+	export OF_STATUS_INDENT_LEFT=254
 	export OF_TARGET_DEVICES="avicii,Avicii,OnePlusNord,Nord,nord,OPNord,oneplusnord"
 	export TARGET_DEVICE_ALT="Avicii,OnePlusNord,Nord,nord,OPNord,oneplusnord"
 
