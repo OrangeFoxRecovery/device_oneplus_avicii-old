@@ -74,8 +74,8 @@ jobs:
          env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          with:
-          tag_name: R11.1_2_001-Testing
-          name: OrangeFox-R11.1_2_001-Testing-avicii.zip
+          tag_name: "$FOX_VERSION"-"$FOX_BUILD_TYPE"
+          name: OrangeFox-"$FOX_VERSION"-"$FOX_BUILD_TYPE"-avicii.zip
           files: | 
             version=$FOX_VERSION
             work/out/target/product/avicii/OrangeFox-R11.1_2-Unofficial-avicii.zip
